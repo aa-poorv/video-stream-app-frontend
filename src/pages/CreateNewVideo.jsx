@@ -172,8 +172,11 @@ const CreateNewVideo = () => {
         </button>
       </form>
       <div className='mt-4 flex justify-center'>
-        <Link to='/videos'>
-          <span className='text-center mx-auto text-amber-500 text-lg cursor-pointer hover:opacity-80'>
+        <Link
+          disabled={isPending}
+          to='/videos'
+        >
+          <span className='text-center mx-auto text-amber-500 text-lg cursor-pointer hover:opacity-80 disabled:opacity-50'>
             Show all Videos
           </span>
         </Link>
