@@ -7,8 +7,8 @@ export default defineConfig({
     proxy: {
       "/api": {
         target: "https://mernvideostreambackend.onrender.com",
-        changeOrigin: false,
-        secure: true,
+        changeOrigin: true,
+        secure: false,
       },
     },
   },
