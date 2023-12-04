@@ -174,9 +174,10 @@ const CreateNewVideo = () => {
       <div className='mt-4 flex justify-center'>
         <Link
           disabled={isPending}
+          className='disabled:opacity-50 disabled:pointer-events-none'
           to='/videos'
         >
-          <span className='text-center mx-auto text-amber-500 text-lg cursor-pointer hover:opacity-80 disabled:opacity-50'>
+          <span className='text-center mx-auto text-amber-500 text-lg cursor-pointer hover:opacity-80 '>
             Show all Videos
           </span>
         </Link>
