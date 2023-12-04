@@ -1,8 +1,7 @@
-# React + Vite
+1. This is the frontend of the Video streaming service that is bult upon React.js, React-Router and tanstack query.
+2. Here the navigation is pretty simple home page is a form to create a video with allowed files as avi, mp4 and mpg.
+3. From there one can move to all videos page Where one can all the created videos Click on any video to play.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here is the link of hosted application: https://video-stream-app-frontend.vercel.app
+Here is the link for hosted backend: https://mernvideostreambackend.onrender.com
+link of github for backend: https://github.com/aa-poorv/video-stream-app-backend
